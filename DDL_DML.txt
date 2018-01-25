@@ -1,0 +1,22 @@
+#Run these commands from an interactive shell
+
+#Create the database
+sqlite3 my_sqlite.db
+
+#Create the database table
+CREATE TABLE IF NOT EXISTS carTable ("make" TEXT, "model" TEXT, "year" INTEGER, "chassis_id" TEXT, "id" INTEGER, "last_updated" TEXT, "price" REAL);
+
+#import the data in the .csv fiel into the table
+.mode csv
+.import dataset.csv carTable
+
+#Check the data in the table
+select * from carTable;
+
+#Delete the header row from the data
+delete from carTable where make = 'make';
+
+#Check the contents of the table
+select * from carTable;
+
+
