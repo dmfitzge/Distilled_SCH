@@ -1,15 +1,15 @@
 # Distilled_SCH
 
-*Desmond Fitzgerald
-*Technical challeenge for Distilled SCH
+Desmond Fitzgerald  
+Technical challeenge for Distilled SCH  
 
 ## Data Clensing
 
-*Before loading the data the .csv file was cleaned.
-*Duplicate id fixed. 
-*Blank spaces were removed
-*Quote marks on price were changes.
-*Date fromat was standarized.
+Before loading the data the .csv file was cleaned.  
+Duplicate id fixed.  
+Blank spaces were removed
+Quote marks on price were changes.  
+Date fromat was standarized.  
 
 ### File Names
 
